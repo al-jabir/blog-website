@@ -7,7 +7,8 @@ const author = () => {
       <Image
         src={'/images/author/author1.jpg'}
         alt='author'
-        width={50}
+        className='rounded-full'
+        width={70}
         height={50}
       />
       <div className='flex flex-col justify-center px-4'>
