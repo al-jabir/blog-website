@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ImFacebook, ImTwitter, ImYoutube } from 'react-icons/im';
-import Newslatter from './_child/newslatter';
+// import Newslatter from './_child/newslatter';
 
 export default function footer() {
   const bg = {
@@ -11,7 +11,7 @@ export default function footer() {
 
   return (
     <footer className='bg-gray-50' style={bg}>
-      <Newslatter></Newslatter>
+      {/* Newslateer */}
       <div className='container mx-auto flex justify-center py-12'>
         <div className='py-5'>
           <div className='flex gap-6 justify-center'>
@@ -32,11 +32,11 @@ export default function footer() {
             </Link>
           </div>
 
-          <p className='py-5 text-gray-400'>
+          <p className='py-5 text-black text-center font-bold'>
             Copyright ©2022 All rights reserved | This template is made with by
             Daily Tuition
           </p>
-          <p className='text-gray-400 text-center'>Terms & Condition</p>
+          <p className='text-gray-600 text-center'>Terms & Condition</p>
         </div>
       </div>
     </footer>
