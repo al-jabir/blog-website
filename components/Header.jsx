@@ -9,23 +9,23 @@ export default function header() {
           <input type='text' className='input-text' placeholder='Search...' />
         </div>
         <div className='shrink w-80 sm:order-2'>
-          <Link href={'/'}>
+          <Link href='/'>
             <a className='font-bold uppercase text-3xl'>Blog App</a>
           </Link>
         </div>
         <div className='w-96 order-3 flex justify-center'>
           <div className='flex gap-6'>
-            <Link href={'/'}>
+            <Link href='/'>
               <a>
                 <ImFacebook color='#888888' />
               </a>
             </Link>
-            <Link href={'/'}>
+            <Link href='/'>
               <a>
                 <ImTwitter color='#888888' />
               </a>
             </Link>
-            <Link href={'/'}>
+            <Link href='/'>
               <a>
                 <ImYoutube color='#888888' />
               </a>
