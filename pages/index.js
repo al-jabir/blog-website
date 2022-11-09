@@ -1,10 +1,13 @@
-import Header from '../components/Header';
+import Section from '../components/Section';
+
+//components
+import Layout from '../layout/layout';
 
 const Home = () => {
   return (
-    <>
-      <Header />
-    </>
+    <Layout>
+      <Section />
+    </Layout>
   );
 };
 

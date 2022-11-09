@@ -1,9 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Author from './_child/Author';
 
 const Section = () => {
   return (
-    <section className='py-16'>
+    <section
+      className='py-16'
+      style={{
+        background: `url('/images/banner.png')`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'right',
+      }}>
       <div className='container mx-auto md:px-20'>
         <h1 className='font-bold text-4xl pb-12 text-center'>Trending</h1>
         {Slide()}
@@ -54,6 +61,7 @@ const Slide = () => {
           text by the name of Lorem Ipsum decided to leave for the far World of
           Grammar.
         </p>
+        <Author />
       </div>
     </div>
   );
