@@ -42,7 +42,6 @@ const Slide = () => {
       <div className='images'>
         <Link href={'/'}>
           <a>
-            {' '}
             <Image
               src={'/images/img1.jpg'}
               alt='pic'
