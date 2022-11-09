@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Author from './_child/author';
+import Author from './_child/Author';
 
 export default function section3() {
   return (
