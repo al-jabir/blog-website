@@ -9,7 +9,7 @@ const author = () => {
         alt='author'
         className='rounded-full'
         width={70}
-        height={50}
+        height={70}
       />
       <div className='flex flex-col justify-center px-4'>
         <Link href={'/'}>
